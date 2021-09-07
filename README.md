@@ -173,6 +173,33 @@ console.log( accumulator() );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/count`][@stdlib/stats/incr/count]: compute a count incrementally.
+-   [`@stdlib/stats/incr/kurtosis`][@stdlib/stats/incr/kurtosis]: compute a corrected sample excess kurtosis incrementally.
+-   [`@stdlib/stats/incr/max`][@stdlib/stats/incr/max]: compute a maximum value incrementally.
+-   [`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]: compute an arithmetic mean incrementally.
+-   [`@stdlib/stats/incr/midrange`][@stdlib/stats/incr/midrange]: compute a mid-range incrementally.
+-   [`@stdlib/stats/incr/min`][@stdlib/stats/incr/min]: compute a minimum value incrementally.
+-   [`@stdlib/stats/incr/msummary`][@stdlib/stats/incr/msummary]: compute a moving statistical summary incrementally.
+-   [`@stdlib/stats/incr/range`][@stdlib/stats/incr/range]: compute a range incrementally.
+-   [`@stdlib/stats/incr/skewness`][@stdlib/stats/incr/skewness]: compute a corrected sample skewness incrementally.
+-   [`@stdlib/stats/incr/stdev`][@stdlib/stats/incr/stdev]: compute a corrected sample standard deviation incrementally.
+-   [`@stdlib/stats/incr/sum`][@stdlib/stats/incr/sum]: compute a sum incrementally.
+-   [`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]: compute an unbiased sample variance incrementally.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -227,6 +254,34 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-incr-summary/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count
+
+[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis
+
+[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
+
+[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange
+
+[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min
+
+[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary
+
+[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range
+
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness
+
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
+
+[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum
+
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
+
+<!-- </related-links> -->
 
 </section>
 
