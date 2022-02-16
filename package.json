@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-summary",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Compute a statistical summary incrementally.",
   "license": "Apache-2.0",
   "author": {
