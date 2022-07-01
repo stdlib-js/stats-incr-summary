@@ -24,32 +24,30 @@ limitations under the License.
 
 > Compute a statistical summary incrementally.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-summary
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-incrsummary = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.incrsummary;
-})();
-</script>
+var incrsummary = require( '@stdlib/stats-incr-summary' );
 ```
 
 #### incrsummary()
@@ -160,14 +158,9 @@ summary = accumulator();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var incrsummary = require( '@stdlib/stats-incr-summary' );
 
 var accumulator;
 var v;
@@ -182,11 +175,6 @@ for ( i = 0; i < 100; i++ ) {
     accumulator( v );
 }
 console.log( accumulator() );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -283,34 +271,35 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-incr-summary/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-incr-summary/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-incr-summary/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-incr-summary/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-incr-summary/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count/tree/umd
+[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count
 
-[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis/tree/umd
+[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis
 
-[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max/tree/umd
+[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max
 
-[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean/tree/umd
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
 
-[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange/tree/umd
+[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange
 
-[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min/tree/umd
+[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min
 
-[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary/tree/umd
+[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary
 
-[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range/tree/umd
+[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range
 
-[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness/tree/umd
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness
 
-[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev/tree/umd
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
 
-[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum/tree/umd
+[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum
 
-[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/umd
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
 
 <!-- </related-links> -->
 
