@@ -48,7 +48,8 @@
     "@stdlib/stats-incr-stdev": "^0.0.x",
     "@stdlib/stats-incr-sum": "^0.0.x",
     "@stdlib/stats-incr-variance": "^0.0.x",
-    "@stdlib/types": "^0.0.x"
+    "@stdlib/types": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.0.x",
