@@ -24,14 +24,30 @@ limitations under the License.
 
 > Compute a statistical summary incrementally.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-summary
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@deno/mod.js';
+var incrsummary = require( '@stdlib/stats-incr-summary' );
 ```
 
 #### incrsummary()
@@ -143,8 +159,8 @@ summary = accumulator();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var incrsummary = require( '@stdlib/stats-incr-summary' );
 
 var accumulator;
 var v;
@@ -173,18 +189,18 @@ console.log( accumulator() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/incr/count`][@stdlib/stats/incr/count]</span><span class="delimiter">: </span><span class="description">compute a count incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/kurtosis`][@stdlib/stats/incr/kurtosis]</span><span class="delimiter">: </span><span class="description">compute a corrected sample excess kurtosis incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/max`][@stdlib/stats/incr/max]</span><span class="delimiter">: </span><span class="description">compute a maximum value incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/midrange`][@stdlib/stats/incr/midrange]</span><span class="delimiter">: </span><span class="description">compute a mid-range incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/min`][@stdlib/stats/incr/min]</span><span class="delimiter">: </span><span class="description">compute a minimum value incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/msummary`][@stdlib/stats/incr/msummary]</span><span class="delimiter">: </span><span class="description">compute a moving statistical summary incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/range`][@stdlib/stats/incr/range]</span><span class="delimiter">: </span><span class="description">compute a range incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/skewness`][@stdlib/stats/incr/skewness]</span><span class="delimiter">: </span><span class="description">compute a corrected sample skewness incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/stdev`][@stdlib/stats/incr/stdev]</span><span class="delimiter">: </span><span class="description">compute a corrected sample standard deviation incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/sum`][@stdlib/stats/incr/sum]</span><span class="delimiter">: </span><span class="description">compute a sum incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]</span><span class="delimiter">: </span><span class="description">compute an unbiased sample variance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/count`][@stdlib/stats/incr/count]</span><span class="delimiter">: </span><span class="description">compute a count incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/kurtosis`][@stdlib/stats/incr/kurtosis]</span><span class="delimiter">: </span><span class="description">compute a corrected sample excess kurtosis incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/max`][@stdlib/stats/incr/max]</span><span class="delimiter">: </span><span class="description">compute a maximum value incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/midrange`][@stdlib/stats/incr/midrange]</span><span class="delimiter">: </span><span class="description">compute a mid-range incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/min`][@stdlib/stats/incr/min]</span><span class="delimiter">: </span><span class="description">compute a minimum value incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/msummary`][@stdlib/stats/incr/msummary]</span><span class="delimiter">: </span><span class="description">compute a moving statistical summary incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/range`][@stdlib/stats/incr/range]</span><span class="delimiter">: </span><span class="description">compute a range incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/skewness`][@stdlib/stats/incr/skewness]</span><span class="delimiter">: </span><span class="description">compute a corrected sample skewness incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/stdev`][@stdlib/stats/incr/stdev]</span><span class="delimiter">: </span><span class="description">compute a corrected sample standard deviation incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/sum`][@stdlib/stats/incr/sum]</span><span class="delimiter">: </span><span class="description">compute a sum incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/variance`][@stdlib/stats/incr/variance]</span><span class="delimiter">: </span><span class="description">compute an unbiased sample variance incrementally.</span>
 
 </section>
 
@@ -199,7 +215,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -261,29 +277,29 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count/tree/deno
+[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count
 
-[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis/tree/deno
+[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis
 
-[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max/tree/deno
+[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max
 
-[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean/tree/deno
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
 
-[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange/tree/deno
+[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange
 
-[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min/tree/deno
+[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min
 
-[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary/tree/deno
+[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary
 
-[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range/tree/deno
+[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range
 
-[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness/tree/deno
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness
 
-[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev/tree/deno
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
 
-[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum/tree/deno
+[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum
 
-[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/deno
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
 
 <!-- </related-links> -->
 
