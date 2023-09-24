@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-summary",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Compute a statistical summary incrementally.",
   "license": "Apache-2.0",
   "author": {
@@ -37,21 +37,21 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/stats-incr-count": "^0.0.7",
-    "@stdlib/stats-incr-kurtosis": "^0.0.7",
-    "@stdlib/stats-incr-max": "^0.0.7",
-    "@stdlib/stats-incr-mean": "^0.0.7",
-    "@stdlib/stats-incr-midrange": "^0.0.7",
-    "@stdlib/stats-incr-min": "^0.0.7",
-    "@stdlib/stats-incr-range": "^0.0.7",
-    "@stdlib/stats-incr-skewness": "^0.0.6",
-    "@stdlib/stats-incr-stdev": "^0.0.7",
-    "@stdlib/stats-incr-sum": "^0.0.6",
-    "@stdlib/stats-incr-variance": "^0.0.7",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/stats-incr-count": "^0.1.0",
+    "@stdlib/stats-incr-kurtosis": "^0.1.0",
+    "@stdlib/stats-incr-max": "^0.1.0",
+    "@stdlib/stats-incr-mean": "^0.1.0",
+    "@stdlib/stats-incr-midrange": "^0.1.0",
+    "@stdlib/stats-incr-min": "^0.1.0",
+    "@stdlib/stats-incr-range": "^0.1.0",
+    "@stdlib/stats-incr-skewness": "^0.1.0",
+    "@stdlib/stats-incr-stdev": "^0.1.0",
+    "@stdlib/stats-incr-sum": "^0.1.0",
+    "@stdlib/stats-incr-variance": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/bench": "^0.1.0",
     "@stdlib/random-base-randu": "^0.0.8",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
