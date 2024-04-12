@@ -1,0 +1,5 @@
+"use strict";var f=function(n,a){return function(){return a||n((a={exports:{}}).exports,a),a.exports}};var d=f(function(G,g){
+var w=require('@stdlib/stats-incr-count/dist'),l=require('@stdlib/stats-incr-max/dist'),p=require('@stdlib/stats-incr-min/dist'),y=require('@stdlib/stats-incr-range/dist'),h=require('@stdlib/stats-incr-midrange/dist'),b=require('@stdlib/stats-incr-sum/dist'),j=require('@stdlib/stats-incr-mean/dist'),z=require('@stdlib/stats-incr-variance/dist'),A=require('@stdlib/stats-incr-stdev/dist'),B=require('@stdlib/stats-incr-skewness/dist'),C=require('@stdlib/stats-incr-kurtosis/dist');function D(){var n,a,i,u,r,s,v,c,t,m,q,o;return s=w(),o=b(),t=j(),a=z(),c=A(),i=B(),u=C(),m=l(),q=p(),v=y(),n=h(),r={},k;function k(e){return arguments.length===0||(r.count=s(e),r.max=m(e),r.min=q(e),r.range=v(e),r.midrange=n(e),r.sum=o(e),r.mean=t(e),r.variance=a(e),r.stdev=c(e),r.skewness=i(e),r.kurtosis=u(e)),r}}g.exports=D
+});var E=d();module.exports=E;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
