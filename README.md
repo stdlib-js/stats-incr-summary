@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@esm/index.mjs';
+import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@v0.2.2-esm/index.mjs';
 ```
 
 #### incrsummary()
@@ -160,7 +160,7 @@ summary = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@esm/index.mjs';
+import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@v0.2.2-esm/index.mjs';
 
 var accumulator;
 var v;
