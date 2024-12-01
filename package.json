@@ -48,7 +48,7 @@
     "@stdlib/stats-incr-stdev": "^0.2.2",
     "@stdlib/stats-incr-sum": "^0.2.2",
     "@stdlib/stats-incr-variance": "^0.2.2",
-    "@stdlib/types": "^0.4.1"
+    "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/random-base-randu": "^0.2.1",
