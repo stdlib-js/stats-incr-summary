@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@deno/mod.js';
+import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@v0.2.3-deno/mod.js';
 ```
 
 #### incrsummary()
@@ -155,7 +155,7 @@ summary = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@deno/mod.js';
+import incrsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-summary@v0.2.3-deno/mod.js';
 
 var accumulator;
 var v;
